@@ -1,0 +1,22 @@
+# Downloaded NOAA data and analysis output (rebuilt by scripts/, never committed)
+data/
+*.csv.gz
+*.part
+
+# Built web page (deployed to GitHub Pages by the workflow, never committed)
+site/
+build.log
+
+# Python build artifacts and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
